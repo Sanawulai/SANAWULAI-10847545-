@@ -2,11 +2,13 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
-
+import {Products, Cart, Checkout } from './components/components';
 
 const Stack= createStackNavigator();
 import Homepage from './screens/Homepage';
 import productsDetails from './consts/ProductsDetails';
+
+
 
 
 
